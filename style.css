@@ -1,0 +1,118 @@
+
+body{
+    background-color: rgba(3, 14, 61, 0.925);
+    padding: 8%;
+}
+.title{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.subtitles{
+    color: white;
+    border-bottom: blue solid;
+    padding-bottom: 10px;
+}
+.form-control{
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 5px;
+  color: grey;
+  
+    
+    
+   
+    border-bottom: grey solid;
+
+}
+#phone{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-bottom: grey solid;
+    color: grey;
+}
+.inline{
+    display: flex;
+    justify-content: space-between;
+    
+}
+input [type=text] {
+    width: 500px;;
+}
+
+/*******************************PERSONAL INFORMATION ENDS****/
+.inline2 {
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+   
+  
+    
+}
+
+.container1 label input{
+display: none;
+}
+.container1 label span{
+    width: 50px;
+    background:transparent;
+    border: 1px gray solid;
+    padding: 20px 40px 20px 40px;
+}
+.container1 label input:checked ~ span{
+color: white;
+background: skyblue;
+color: white;
+
+}
+/*.container1 {
+    border: 1px solid grey;
+    margin: 0 5px 0 5px;
+    padding: 1em;
+    color: white;
+}
+.container1:hover{
+background: orange;
+color: black;
+}
+.inline2 label input :checked  {
+    background: red;
+} 
+ */
+/*.container1 input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer; 
+}*/ 
+
+.Flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+
+.column{
+    flex-direction: column;
+}
+
+.form-control2{
+  border: 1px grey solid;
+  background: transparent;  
+}
+.button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background: blue;
+    color: white;
+}
+    
+
